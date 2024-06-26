@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+</head>
+<body>
+    <div class="ExampleTarget"></div>
+    <div class="ExampleTarget"></div>
+    <div class="ExampleTarget"></div>
+    <script src="./LoadComponent.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            LoadComponent("HelloWorld.html", "ExampleTarget")
+        })
+    </script>
+</body>
+</html>
